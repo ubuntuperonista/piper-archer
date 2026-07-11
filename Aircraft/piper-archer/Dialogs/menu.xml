@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <default>
+    <menu n="10">
+      
+      <label>Piper Archer</label>
+      <enabled type="bool">true</enabled>
+      
+      <item>
+        <name>autostart</name>
+        <label>Autostart</label>
+        <binding>
+          <command>nasal</command>
+          <script>piper_archer.autostart()</script>
+        </binding>
+      </item>
+
+      <item>
+        <name>options</name>
+        <label>Options</label>
+        <binding>
+          <command>dialog-show</command>
+          <dialog-name>options</dialog-name>          
+        </binding>
+      </item>
+      
+      <!-- <item> -->
+      <!--   <name>repair-all</name> -->
+      <!--   <label>Repair all</label> -->
+      <!--   <binding> -->
+      <!--     <command>property-toggle</command> -->
+      <!--     <property>/options/shadow</property> -->
+      <!--   </binding> -->
+      <!-- </item> -->
+      
+    </menu>
+  </default>
+
+</PropertyList>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PropertyList include="piper-archer-common.xml">
+
+  <sim>
+    <description>Piper Archer CX</description>
+    <variant type="string">CX</variant>
+
+    <rating>
+      <cockpit type="int">3</cockpit>
+    </rating>
+
+    <startup>
+      <splash-texture>splash-cx.png</splash-texture>
+    </startup>
+
+    <model>
+      <path>Models/piper-archer-cx-model.xml</path>
+      
+    </model>
+
+    <menubar include="Dialogs/menu-cx.xml"/>
+
+  </sim>
+
+</PropertyList>
